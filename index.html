@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Baron Crow Web Development</title>
+    <script
+      src="https://kit.fontawesome.com/25ffa11a9e.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Special+Gothic+Expanded+One&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--Navbar-->
+    <nav
+      class="z-30 relative px-3 py-2 flex justify-between text-center bg-gradient-to-t from-gray-300 to-gray-100"
+    >
+      <div>
+        <i class="fa-solid fa-water"></i>
+        <span class="px-3 font-thin">baron-crow | web development</span>
+      </div>
+      <div class="flex gap-6">
+        <a
+          class="hidden sm:flex mx-1 hover:opacity-75 hover:underline"
+          href="#projects"
+          >projects</a
+        >
+        <a
+          class="hidden sm:flex mx-1 hover:opacity-75 hover:underline"
+          href="#about"
+          >about</a
+        >
+        <a class="hover:opacity-75 hover:underline" href="#contact">contact</a>
+      </div>
+    </nav>
+    <!--Main-->
+    <main class="z-1 relative grid grid-cols-12 gap-4">
+      <!--Background Layers-->
+      <div
+        class="z-1 h-screen fixed inset-0 bg-[url('images/nature-9332892_1280.jpg')] bg-cover bg-center h-screen"
+      ></div>
+      <div class="z--1 fixed h-screen inset-0 bg-white/50"></div>
+      <!--Hero Section-->
+      <section
+        class="z-20 col-start-3 col-span-8 flex flex-col items-center mt-20 text-center"
+      >
+        <h1
+          class="text-2xl font-serif"
+          style="font-family: 'Playfair Display', serif"
+        >
+          Translating your <span class="text-blue-500">ideas</span> into
+          <span class="font-bold">reality</span> <br />- web development
+          specialising in
+          <span class="italic">bringing designs to life</span> on the web.
+        </h1>
+
+        <div class="z-20 mt-8 flex gap-6 text-sm">
+          <button
+            class="bg-gradient-to-b from-blue-600 to-blue-200 py-2 px-4 rounded-xl hover:saturate-200 active:shadow-lg active:translate-y-0.5"
+          >
+            Contact
+          </button>
+          <button
+            class="bg-gradient-to-b from-blue-600 to-blue-200 py-2 px-6 rounded-xl hover:saturate-200 active:shadow-lg active:translate-y-0.5"
+          >
+            Download CV
+          </button>
+        </div>
+      </section>
+
+      <!--Projects Cards-->
+
+      <section
+        id="projects"
+        class="z-20 col-start-2 col-span-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-32 gap-6"
+      >
+        <!--Bloomhaus Project-->
+        <div class="max-w-sm bg-white rounded-2xl shadow-md overflow-hidden">
+          <img
+            src="images/bloomweb.png"
+            alt="card image"
+            class="w-full h-48 object-cover rounded-top-2xl"
+          />
+          <div class="p-4">
+            <h2
+              class="text-xl font-bold font-serif text-gray-800"
+              style="font-family: 'Playfair Display', serif"
+            >
+              Bloomhaus Web
+            </h2>
+            <h3
+              class="text-md text-gray-600 mt-1 font-serif max-w-3xl px-4"
+              style="font-family: 'Playfair Display', serif"
+            >
+              Site for international band complete with music and video
+              carousels, tour schedule, and contact form
+            </h3>
+            <div class="flex justify-end mt-3">
+              <button
+                class="px-2 bg-blue-500 text-white rounded-full shadow-md hover:bg-blue-600 active:translate-y-0.5 transition"
+              >
+                <i class="fa-solid fa-arrow-up fa-sm rotate-45"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!--EFAB Project-->
+        <div class="max-w-sm bg-white rounded-2xl shadow-md overflow-hidden">
+          <img
+            src="images/efabweb.png"
+            alt="card image"
+            class="w-full h-48 object-cover object-top rounded-top-2xl"
+          />
+          <div class="p-4">
+            <h2
+              class="text-xl font-bold font-serif text-gray-800"
+              style="font-family: 'Playfair Display', serif"
+            >
+              Elite Football Academy Barcelona
+            </h2>
+            <h3
+              class="text-md text-gray-600 mt-1 font-serif max-w-3xl px-4"
+              style="font-family: 'Playfair Display', serif"
+            >
+              Site created for international football academy featuring multiple
+              languages, calendar of activities, video background, and a contact
+              form
+            </h3>
+            <div class="flex justify-end mt-3">
+              <button
+                class="px-2 bg-blue-500 text-white rounded-full shadow-md hover:bg-blue-600 active:translate-y-0.5 transition"
+              >
+                <i class="fa-solid fa-arrow-up fa-sm rotate-45"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!--Real Estate Project-->
+        <div class="max-w-sm bg-white rounded-2xl shadow-md overflow-hidden">
+          <img
+            src="images/realestateweb.png"
+            alt="card image"
+            class="w-full h-48 object-cover object-bottom rounded-top-2xl"
+          />
+          <div class="p-4">
+            <h2
+              class="text-xl font-bold font-serif text-gray-800"
+              style="font-family: 'Playfair Display', serif"
+            >
+              New York Real Estate
+            </h2>
+            <h3
+              class="text-md text-gray-600 mt-1 font-serif max-w-3xl px-4"
+              style="font-family: 'Playfair Display', serif"
+            >
+              Luxury real-estate site with property gallery cards and estate
+              agent profiles
+            </h3>
+            <div class="flex justify-end mt-3">
+              <button
+                class="px-2 bg-blue-500 text-white rounded-full shadow-md hover:bg-blue-600 active:translate-y-0.5 transition"
+              >
+                <i class="fa-solid fa-arrow-up fa-sm rotate-45"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Technologies-->
+      <section
+        class="z-20 col-start-0 col-span-12 mx-auto my-8 flex justify-between items-center px-4"
+      >
+        <i
+          class="fa-brands fa-html5 text-5xl md:text-6xl lg:text-8xl text-blue-600"
+        ></i>
+        <i
+          class="fa-brands fa-css text-5xl md:text-6xl lg:text-8xl text-blue-600"
+        ></i>
+        <i
+          class="fa-brands fa-js text-5xl md:text-6xl lg:text-8xl text-blue-600"
+        ></i>
+        <i
+          class="fa-brands fa-github text-5xl md:text-6xl lg:text-8xl text-blue-600"
+        ></i>
+      </section>
+
+      <!--Contact-->
+      <section
+        id="#contact"
+        class="z-20 col-start-0 col-span-12 max-w-md sm:max-w-xl lg:max-w-2xl mx-auto mt-16 p-6 bg-white rounded-xl shadow-md"
+      >
+        <h2 class="text-2xl mb-6 text-center">Get in touch</h2>
+        <form class="space-y-4">
+          <div>
+            <label class="block mb-1 font-medium" for="name">Name</label>
+            <input
+              class="w-full border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+              type="text"
+              id="name"
+              placeholder="Your Name"
+            />
+          </div>
+
+          <div>
+            <label class="block mb-1 font-medium" for="email">Email</label>
+            <input
+              class="w-full border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+              type="email"
+              id="email"
+              placeholder="you@example.com"
+            />
+          </div>
+
+          <div>
+            <label class="block mb-1 font-medium" for="message">Message</label>
+            <textarea
+              class="w-full border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+              id="message"
+              rows="5"
+              placeholder="Your message"
+            ></textarea>
+          </div>
+
+          <button
+            class="bg-blue-600 text-white py-2 px-4 rounded-xl hover:bg-blue-700 transition"
+            type="submit"
+          >
+            Send Message
+          </button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
