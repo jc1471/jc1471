@@ -1,6 +1,6 @@
 ## Hi I'm Jordan 👋
 
-- I like coding
+- Currently studying full-stack, find my projects and experiments here :)
 
 <!--
 **jc1471/jc1471** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
